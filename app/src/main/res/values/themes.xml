@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TabLayoutLogin" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+
+         <item name="colorPrimary">#FF0000</item>
+    </style>
+
+    <style name="Theme.TabLayoutLogin" parent="Base.Theme.TabLayoutLogin" />
+
+
+    <style name="SearchViewTheme">
+        <item name="colorSecondary">#FF0000</item>
+        <item name="searchBackground">#FF0000</item>
+        <item name="android:inputType">text</item>
+        <item name="android:hint">Pesquisar</item>
+        <item name="hintColor">#FFFFFF</item>
+        <item name="backIconTint">@color/white</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="iconsTint">@color/white</item>
+    </style>
+
+    <style name="Base_ToolbarStyle">
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="android:background">#FF0000</item>
+        <item name="android:theme">@style/Base_ToolbarStyle</item>
+    </style>
+
+    <style name="Base_ToolbarTheme">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">#CCC</item>
+    </style>
+</resources>
